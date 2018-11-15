@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="HU">
+<meta charset="UTF-8">
+<head>
+<script>
+var szam;
+var dupla; 
+
+</script>
+</head>
+
+<body>
+
+
+<input type="numner" id="bekert" value="5">
+<input type="button" value="Kettőz" onclick="dolgozat()">
+<script>         
+	//var szam=prompt("Szám");
+function dolgozat(feladat)
+	{
+	szam=document.getElementById("bekert").value;
+	dupla=bekert*2;
+	document.write(szam+"->"+dupla);
+	document.write(szam+" kettoz ="+dolgozat(szam));
+	}
+</script>
+<p id="kettoz"></p>
+Szám: <input id="egy" type="text" size="2">
+<input type="button" value="Dupla" onclick="var szam1 = document.getElementById('egy').value;
+document.getElementById('egy').value = szam1 * 2">
+</body>
+
+</html>

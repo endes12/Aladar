@@ -1,0 +1,117 @@
+<head>
+<script>
+	var szam;
+	var oszto = 2;
+	var csd;
+	var i;
+	var db=0;
+</script>
+</head>
+
+<body>
+osztók: <br/>
+<script>
+/*szam=prompt("Kérek egy számot",12);
+	document.write(szam*2+'<br />');
+*/
+szam=prompt("Kérek egy számot",12);
+csd=szam;
+function viola()
+{
+while (szam>1) 
+{ // ciklus, amíg szam nagyobb mint 1
+ if (szam % oszto == 0) 
+ { // ha szam osztható oszto-val, akkor
+	document.write(oszto,'<br>');
+	szam = szam / oszto; 
+	// szam új értéke = szam / oszto
+ } 
+   else {
+			++oszto;
+		}
+}
+}
+document.write("<br />"+"összes osztó" +"<br/>")
+for (i=1; i<=csd ;i++)
+	{
+		
+		if(csd%i==0)
+			{
+			  document.write(i+"<br />");
+			  db++; //db értéke eggyel nő
+			}
+	}
+document.write(db +" osztója van a számnak<br />");
+	
+</script>
+
+
+
+
+
+
+
+< input type="number" value="54532">
+<input type="button " value="Most" onclick="viola()">
+<p> -*- </p>
+
+
+
+var s = new String;
+s = prompt('Írd be a neved');
+document.write('Szia ',s,'<br>'); // ….udvariasan köszönünk
+document.write('A neved ',s.length,' karakterből áll.<br>'); // string hossza
+for (i=0; i < s.length; ++i) { // string első karaktere a nulladik elem!
+ document.write(s.charAt(i),'<br>');
+}
+
+<script type="text/javascript">
+var n = Math.floor(Math.random()*1000)+1; // így globális lesz a változó
+function teszt() {
+ var tipp = parseInt(document.form1.TIPP.value); // parseInt: Szám típusra alakít!
+ var szoveg = '';
+ if (tipp > n) { szoveg = 'Kisebb!';}
+ if (tipp < n) { szoveg = 'Nagyobb';}
+ if (tipp ==n) { szoveg = 'TALÁLT'; }
+ document.getElementById('keret1').innerHTML = szoveg
+}
+</script>
+<H3> Gondoltam egy számot 1..1000 között.</H3>
+<form name="form1">
+ Tipp: <input type="number" name="TIPP" value="0">
+ <input type="button" value="OK" onClick="return teszt();">
+ <!— A nyomógombra kattintva lefut a "teszt" JS eljárás -->
+</form>
+<div class="A0" id="keret1"></div>
+<!— ebbe az üres DIV-be írja be a "teszt" függvény az eredményeket (innerHTML) -->
+
+<script>
+		function fejtoro()
+		{
+			document.getElementById("megoldas").innerText = "";
+			
+			var teve = document.getElementById("teveszam").value;
+			var strucc = document.getElementById("struccszam").value;
+			
+			if(teve == "" || strucc == "")
+				alert("Hibás adat!");
+			else if (teve < 5)
+			{
+				alert("Ettől több teve van!");
+			}
+			else if (teve > 5)
+			{
+				alert("Ettől kevesebb teve van!");
+			}
+			else if (teve == 5 && strucc == 19)
+			{
+				document.getElementById("megoldas").innerText = "Helyes! 5 teve és 19 strucc";
+			}
+		}
+	</script>
+
+<p>Teve: <input type="number" id="teveszam" /></p>
+<p>Strucc: <input type="number" id="struccszam" /></p>
+<input type="button" value="Tipp" onclick="fejtoro()" /> 
+<span id="megoldas"></span>
+
