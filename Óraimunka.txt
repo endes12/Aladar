@@ -1,0 +1,24 @@
+Változó típusok:		bit=/bájt
+	-logikai:		8bit = 1bájt
+		igaz/hamis 
+
+     szám:				  128  64   32   16   8    4     2    1
+	természetes:
+					I____I____I____I____I____I____I____I____I
+                                 8
+		-1byte 0-255	2
+				 16
+		-2byte 0-65535   2
+				  32
+		-4byte 4 milliárd 2-1
+
+	egész számok:
+		-1byte -128-128
+		-2byte -32768-32768
+		-4byte -2milliárd-2milliárd
+	
+	valós számok:
+		-lebegõpontos
+		-double
+		-float
+
