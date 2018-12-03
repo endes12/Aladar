@@ -14,7 +14,7 @@ Változó típusok:		bit=/bájt
 
 	egész számok:
 		-1byte -128-127
-		-2byte -32768-32768
+		-2byte -32768-32767
 		-4byte -2milliárd-2milliárd
 	
 	valós számok:
