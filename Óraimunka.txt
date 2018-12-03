@@ -1,24 +1,24 @@
-V·ltozÛ tÌpusok:		bit=/b·jt
-	-logikai:		8bit = 1b·jt
+V√°ltoz√≥ t√≠pusok:		bit=/b√°jt
+	-logikai:		8bit = 1b√°jt
 		igaz/hamis 
 
-     sz·m:				  128  64   32   16   8    4     2    1
-	termÈszetes:
+     sz√°m:				  128  64   32   16   8    4     2    1
+	term√©szetes:
 					I____I____I____I____I____I____I____I____I
                                  8
 		-1byte 0-255	2
 				 16
 		-2byte 0-65535   2
 				  32
-		-4byte 4 milli·rd 2-1
+		-4byte 4 milli√°rd 2-1
 
-	egÈsz sz·mok:
-		-1byte -128-128
+	eg√©sz sz√°mok:
+		-1byte -128-127
 		-2byte -32768-32768
-		-4byte -2milli·rd-2milli·rd
+		-4byte -2milli√°rd-2milli√°rd
 	
-	valÛs sz·mok:
-		-lebegıpontos
+	val√≥s sz√°mok:
+		-lebeg√µpontos
 		-double
 		-float
 
