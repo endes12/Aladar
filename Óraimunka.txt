@@ -24,3 +24,44 @@ Változó típusok:		bit=/bájt
 	1-es komplemens:
 			-5=1-1-1-1-1-0-1-0
 	2-es komplemens -5=1-1-1-1-1-0-1-1
+	
+	
+	
+	
+XII.10
+
+egyszerű szám-természetes számok
+	     -egész
+	     -valós
+	     
+	     
+koplemens float,double,decimal
+logikai
+karakter	c# kód 
+szöveg(string)
+	-1byte   -2byte 
+	 ASCII    UNICODE
+	 
+	 
+	 
+					ADATSZERKEZET
+					
+					
+	-adatelem
+	-hely
+.homogén:azonos típusú elemek
+	-tömb 
+	    -statikus: nem változik a mérete
+	    	-kitüntetett az első elem
+		-viszonyítási alap
+		-sorszáma van(index)
+		
+		
+>1D vektor 
+	1index
+	1érték
+>>2D mátrix
+	sor,oszlop = sorfolytonos tárolás =   ....
+		        		      ....
+		    		              ....
+>>>3D sor,oszlop,lap
